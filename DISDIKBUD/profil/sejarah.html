@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sejarah | Disdikbud Parepare</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../img/logo parepare.png" type="image/png">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/logo parepare.png" alt="Logo" class="me-2">
+        Dinas Pendidikan & Kebudayaan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Beranda</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Profil</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" href="sejarah.html">Sejarah</a></li>
+              <li><a class="dropdown-item" href="visi-misi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="struktur.html">Struktur Organisasi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pendidikan</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pendidikan/data-sekolah.html">Data Sekolah</a></li>
+              <li><a class="dropdown-item" href="../pendidikan/program-pendidikan.html">Program Pendidikan</a></li>
+              <li><a class="dropdown-item" href="../pendidikan/prestasi-siswa.html">Prestasi Siswa</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Kebudayaan</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../kebudayaan/kegiatan-budaya.html">Kegiatan Budaya</a></li>
+              <li><a class="dropdown-item" href="../kebudayaan/cagar-budaya.html">Cagar Budaya</a></li>
+              <li><a class="dropdown-item" href="../kebudayaan/seni-tradisi.html">Seni & Tradisi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="../berita.html">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="../kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Sejarah Dinas Pendidikan & Kebudayaan Kota Parepare</h1>
+      <p>Menapaki perjalanan panjang dalam memajukan pendidikan dan melestarikan kebudayaan di Kota Parepare.</p>
+    </div>
+  </section>
+
+  <!-- Konten -->
+  <section class="content-section">
+    <div class="container">
+      <div class="content-box" data-aos>
+        <h3>Awal Berdirinya</h3>
+        <p>
+          Dinas Pendidikan dan Kebudayaan Kota Parepare berdiri sebagai lembaga pelaksana urusan pemerintahan daerah
+          dalam bidang pendidikan dan kebudayaan. Sejak awal berdirinya, dinas ini menjadi ujung tombak dalam membangun
+          sumber daya manusia yang berilmu, berkarakter, dan berbudaya.
+        </p>
+
+        <h3>Perkembangan dan Transformasi</h3>
+        <p>
+          Dalam menghadapi perubahan zaman, Dinas Pendidikan dan Kebudayaan terus beradaptasi dengan kemajuan teknologi.
+          Inovasi digital diterapkan untuk mendukung proses belajar mengajar, sistem informasi pendidikan, serta pengelolaan
+          kegiatan budaya agar lebih efektif dan menjangkau seluruh masyarakat.
+        </p>
+
+        <h3>Komitmen dan Prestasi</h3>
+        <p>
+          Melalui kolaborasi dengan berbagai lembaga pendidikan, komunitas, dan instansi lainnya, dinas ini berhasil
+          menyelenggarakan berbagai program unggulan seperti festival budaya, lomba inovasi guru, dan pelatihan keterampilan.
+          Berbagai prestasi di tingkat daerah maupun nasional telah diraih, mencerminkan dedikasi terhadap kemajuan pendidikan
+          dan kebudayaan di Parepare.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="mb-1">&copy; 2025 Dinas Pendidikan dan Kebudayaan Kota Parepare</p>
+    <small>Jl. Jenderal Sudirman No. 10, Parepare | Email: disdikbud@parepare.go.id</small>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Animasi Scroll -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('aos-animate');
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

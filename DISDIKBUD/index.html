@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website Resmi Dinas Pendidikan dan Kebudayaan Kota Parepare. Informasi pendidikan, kebudayaan, berita, dan layanan masyarakat.">
+  <meta name="keywords" content="dinas pendidikan, kebudayaan, parepare, sekolah, budaya, beasiswa">
+  <meta name="author" content="Dinas Pendidikan dan Kebudayaan Kota Parepare">
+  <title>Dinas Pendidikan & Kebudayaan Kota Parepare</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet"> <!-- Untuk ikon -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <img src="img/logo parepare.png" alt="Logo Resmi Dinas Pendidikan dan Kebudayaan Kota Parepare" width="40" class="me-2">
+        Dinas Pendidikan & Kebudayaan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Beranda</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="profil/sejarah.html">Sejarah</a></li>
+              <li><a class="dropdown-item" href="profil/visi-misi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="profil/struktur.html">Struktur Organisasi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pendidikan</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="pendidikan/data-sekolah.html">Data Sekolah</a></li>
+              <li><a class="dropdown-item" href="pendidikan/program-pendidikan.html">Program Pendidikan</a></li>
+              <li><a class="dropdown-item" href="pendidikan/prestasi-siswa.html">Prestasi Siswa</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kebudayaan</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="kebudayaan/sejarah-kebudayaan.html">Sejarah Budaya</a></li>
+              <li><a class="dropdown-item" href="kebudayaan/cagar-budaya.html">Cagar Budaya</a></li>
+              <li><a class="dropdown-item" href="kebudayaan/seni-tradisi.html">Seni & Tradisi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="berita.html">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero text-center text-white d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="fw-bold mb-3">Membangun Generasi Unggul</h1>
+      <p class="lead mb-4">Melalui Pendidikan Berkualitas dan Pelestarian Budaya Daerah</p>
+      <a href="profil/visi-misi.html" class="btn btn-light btn-lg" aria-label="Pelajari visi dan misi lebih lanjut">Pelajari Lebih Lanjut</a>
+    </div>
+  </section>
+
+  <!-- Layanan Unggulan -->
+  <section class="layanan-section py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold text-primary">Layanan Unggulan</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <i class="bi bi-book-half display-4 text-primary mb-3"></i>
+              <h5 class="card-title">Data Sekolah & Pendaftaran</h5>
+              <p class="card-text">Informasi lengkap sekolah negeri/swasta dan panduan PPDB.</p>
+              <a href="pendidikan/data-sekolah.html" class="btn btn-outline-primary">Akses Layanan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <i class="bi bi-trophy display-4 text-primary mb-3"></i>
+              <h5 class="card-title">Beasiswa & Prestasi</h5>
+              <p class="card-text">Program beasiswa dan pencapaian siswa berprestasi.</p>
+              <a href="pendidikan/prestasi-siswa.html" class="btn btn-outline-primary">Akses Layanan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <i class="bi bi-palette display-4 text-primary mb-3"></i>
+              <h5 class="card-title">Kegiatan Budaya</h5>
+              <p class="card-text">Event seni, festival, dan pelestarian tradisi lokal.</p>
+              <a href="kebudayaan/sejarah-kebudayaan.html" class="btn btn-outline-primary">Akses Layanan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <i class="bi bi-building display-4 text-primary mb-3"></i>
+              <h5 class="card-title">Cagar Budaya</h5>
+              <p class="card-text">Data situs bersejarah dan program pelestarian.</p>
+              <a href="kebudayaan/cagar-budaya.html" class="btn btn-outline-primary">Akses Layanan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Berita Terkini -->
+  <section id="berita" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold text-primary">Berita Terkini</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/pelatihan guru digital.jpeg" class="card-img-top" alt="Pelatihan Guru Digital di Parepare">
+            <div class="card-body">
+              <small class="text-muted">15 Januari 2025</small>
+              <h5 class="card-title mt-2">Pelatihan Guru Digital Parepare</h5>
+              <p class="card-text">Pemerintah kota mengadakan pelatihan teknologi untuk meningkatkan kualitas guru di era digital.</p>
+              <a href="berita/berita1.html" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/festival siswa.jpg" class="card-img-top" alt="Festival Budaya Siswa Parepare">
+            <div class="card-body">
+              <small class="text-muted">20 Januari 2025</small>
+              <h5 class="card-title mt-2">Festival Budaya Siswa Parepare</h5>
+              <p class="card-text">Siswa dari berbagai sekolah menampilkan seni tari, musik, dan drama tradisional daerah.</p>
+              <a href="berita/berita2.html" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/C Beasiswa unggulan.jpg" class="card-img-top" alt="Program Beasiswa Pendidikan 2025">
+            <div class="card-body">
+              <small class="text-muted">25 Januari 2025</small>
+              <h5 class="card-title mt-2">Beasiswa Pendidikan Tahun 2025</h5>
+              <p class="card-text">Dinas Pendidikan membuka program beasiswa baru bagi siswa berprestasi di tingkat SMA.</p>
+              <a href="berita/berita3.html" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="berita.html" class="btn btn-outline-primary btn-lg">Lihat Semua Berita</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistik Singkat -->
+  <section class="statistik-section py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold text-primary">Statistik Pendidikan & Kebudayaan</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-people display-4 text-primary mb-3"></i>
+              <h3 class="fw-bold text-primary">150.000</h3>
+              <p class="card-text">Jumlah Siswa</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-mortarboard display-4 text-primary mb-3"></i>
+              <h3 class="fw-bold text-primary">500</h3>
+              <p class="card-text">Sekolah Aktif</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-calendar-event display-4 text-primary mb-3"></i>
+              <h3 class="fw-bold text-primary">50</h3>
+              <p class="card-text">Event Budaya/Tahun</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-award display-4 text-primary mb-3"></i>
+              <h3 class="fw-bold text-primary">200</h3>
+              <p class="card-text">Prestasi Siswa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-white text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-2">&copy; 2025 Dinas Pendidikan dan Kebudayaan Kota Parepare. Semua hak dilindungi.</p>
+          <p class="mb-0">Alamat: Jl. Pendidikan No. 123, Parepare, Sulawesi Selatan | Telp: (0421) 123456 | Email: info@disdikbudparepare.go.id</p>
+        </div>
+        <div class="col-md-6">
+          <p class="mb-2">Ikuti kami:
+            <a href="https://www.instagram.com/disdikbudkotaparepare/" class="text-white text-decoration-none ms-2" aria-label="Instagram Dinas">Instagram</a> |
+            <a href="#" class="text-white text-decoration-none ms-2" aria-label="YouTube Dinas">YouTube</a>
+          </p>
+          <p class="mb-0 small">Disclaimer: Informasi di situs ini bersifat informatif dan dapat berubah sewaktu-waktu.</p>
+          <a href="https://maps.google.com/?q=Jl.+Pendidikan+No.+123,+Parepare" class="text-white text-decoration-none" target="_blank" aria-label="Lihat lokasi di Google Maps">Lihat Lokasi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

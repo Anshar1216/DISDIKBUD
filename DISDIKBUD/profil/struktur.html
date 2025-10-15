@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Struktur Organisasi | Disdikbud Parepare</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* HEADER SECTION */
+    .header-section {
+      background: linear-gradient(135deg, #007bff 0%, #6ec1ff 100%);
+      color: rgb(8, 6, 6);
+      text-align: center;
+      padding: 100px 20px 70px;
+    }
+    .header-section h1 {
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .header-section p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* STRUKTUR SECTION */
+    .structure-section {
+      background: linear-gradient(180deg, #f9fbff 0%, #ffffff 100%);
+      padding: 80px 0;
+    }
+    .structure-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 25px 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .structure-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+    .structure-card img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .structure-card h5 {
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #007bff;
+    }
+    .structure-card p {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 0;
+    }
+    .badge-custom {
+      background-color: #007bff;
+      font-size: 0.8rem;
+      margin-top: 8px;
+      padding: 6px 12px;
+      border-radius: 12px;
+      display: inline-block;
+    }
+
+    /* CONNECTOR */
+    .connector {
+      position: relative;
+      height: 30px;
+    }
+    .connector::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 2px;
+      height: 100%;
+      background-color: #007bff;
+      transform: translateX(-50%);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">
+        <img src="../img/logo parepare.png" alt="Logo Dinas" width="40" class="me-2">
+        Dinas Pendidikan & Kebudayaan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Beranda</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Profil</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+              <li><a class="dropdown-item" href="visi-misi.html">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="struktur.html">Struktur Organisasi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pendidikan</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pendidikan/data-sekolah.html">Data Sekolah</a></li>
+              <li><a class="dropdown-item" href="../pendidikan/program-pendidikan.html">Program Pendidikan</a></li>
+              <li><a class="dropdown-item" href="../pendidikan/prestasi-siswa.html">Prestasi Siswa</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Kebudayaan</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../kebudayaan/kegiatan-budaya.html">Kegiatan Budaya</a></li>
+              <li><a class="dropdown-item" href="../kebudayaan/cagar-budaya.html">Cagar Budaya</a></li>
+              <li><a class="dropdown-item" href="../kebudayaan/seni-tradisi.html">Seni & Tradisi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="../berita.html">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="../kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section class="header-section mt-5 pt-5">
+    <div class="container">
+      <h1>Struktur Organisasi</h1>
+      <p>Struktur organisasi Dinas Pendidikan dan Kebudayaan Kota Parepare dibentuk untuk menjalankan tugas dan fungsi penyelenggaraan urusan pendidikan dan kebudayaan secara efektif, efisien, dan profesional.</p>
+    </div>
+  </section>
+
+  <!-- STRUKTUR -->
+  <section class="structure-section text-center">
+    <div class="container">
+
+      <!-- Kepala Dinas -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-4">
+          <div class="structure-card">
+            <img src="../img/C profil.jpg" alt="Kepala Dinas">
+            <h5>Drs. H. Ahmad Sulaiman</h5>
+            <p>Kepala Dinas Pendidikan dan Kebudayaan</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="connector mb-5"></div>
+
+      <!-- Sekretaris -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-4">
+          <div class="structure-card">
+            <img src="../img/C profil.jpg" alt="Sekretaris Dinas">
+            <h5>Andi Rahmawati, S.Pd</h5>
+            <p>Sekretaris Dinas</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="connector mb-5"></div>
+
+      <!-- Bidang-bidang -->
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-3">
+          <div class="structure-card">
+            <img src="../img/C profil.jpg" alt="Bidang Pendidikan Dasar">
+            <h5>Nurhayati, S.Pd</h5>
+            <p><strong>Bidang Pendidikan Dasar</strong></p>
+            <span class="badge-custom">8 Anggota</span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="structure-card">
+            <img src="../img/C profil.jpg" alt="Bidang Pembinaan PAUD & PNF">
+            <h5>Rahmatullah, M.Pd</h5>
+            <p><strong>Bidang Pembinaan PAUD & PNF</strong></p>
+            <span class="badge-custom">6 Anggota</span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="structure-card">
+            <img src="../img/C profil.jpg" alt="Bidang Kebudayaan">
+            <h5>Siti Aisyah, S.Sos</h5>
+            <p><strong>Bidang Kebudayaan</strong></p>
+            <span class="badge-custom">5 Anggota</span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="structure-card">
+            <img src="../img/C profil.jpg" alt="Bidang GTK & Kurikulum">
+            <h5>Herlina, M.Pd</h5>
+            <p><strong>Bidang GTK & Kurikulum</strong></p>
+            <span class="badge-custom">7 Anggota</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer bg-primary text-white text-center py-3">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Dinas Pendidikan dan Kebudayaan Kota Parepare.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
